@@ -43,7 +43,7 @@ st.plotly_chart(fig, use_container_width=True)
 def load_all_models():
     models = {}
     models["KNN"] = joblib.load("model_baru/best_KNN_model.pkl")
-    models["Decision Tree"] = joblib.load("model_baru/best_Decision_tree_model.pkl")
+    models["Decision Tree"] = joblib.load("model_baru/best_Decision_Tree_model.pkl")
     models["Random Forest"] = joblib.load("model_baru/best_random_forest_model.pkl")
     return models
 
